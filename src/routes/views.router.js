@@ -1,6 +1,6 @@
 const { Router } = require(`express`)
 const { uploader } = require(`../utils/multer.js`)
-const messageUsers = require(`../views/message`)
+const messageManagerMongo = require(`../views/message`)
 
 
 const router = Router()
